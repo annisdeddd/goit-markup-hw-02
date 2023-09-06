@@ -59,10 +59,14 @@ ul{
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .button{
-    color:var(--color-primary-light) ;
+    color:var(--c-primary-light) ;
     font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
     border: none;
