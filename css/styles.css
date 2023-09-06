@@ -6,7 +6,7 @@
    --c-logo: #4D5AE5;
    --c-text:#434455;
 }
-
+/* Base */
 body{
     color:var(--c-text);
     font-family:'Roboto',sans-serif ;
@@ -22,6 +22,7 @@ ul{
     list-style-type: none;
 }
 
+/* Header */
 .logo{
     font-family: 'Raleway',sans-serif;
     color:var(--c-logo);
@@ -51,7 +52,7 @@ ul{
 }
 
 .add-contact{ 
-    color: #434455;     /*FIX ME:color,HOVER,FOCUS*/
+    color: var(--c-text);   
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -61,9 +62,10 @@ ul{
 }
 .add-contact:hover,
 .add-contact:focus {
-    color: #404bbf;
+    color: var(--c-brand);
 }
 
+/* Hero section*/
 .hero-section{
     background-color: var(--c-primary);
 
@@ -94,3 +96,18 @@ ul{
     background-color: var(--c-brand);
 }
 
+/* Advantages section*/
+.advantage-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.advantage-text {
+    color: var(--c-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
