@@ -138,3 +138,20 @@ ul{
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
+/* Portfolio section */
+.portfolio-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-category{
+    color: var(--c-text);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
