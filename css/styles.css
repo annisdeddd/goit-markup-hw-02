@@ -4,10 +4,11 @@
    --c-primary-light:#FFFFFF;
    --c-background-light:#FFF;
    --c-logo: #4D5AE5;
+   --c-text:#434455;
 }
 
 body{
-    color:var(--c-primary);
+    color:var(--c-text);
     font-family:'Roboto',sans-serif ;
     background-color: var(--c-background-light);
     font-size: 16px;
@@ -23,17 +24,17 @@ ul{
 
 .logo{
     font-family: 'Raleway',sans-serif;
-    color:var(--c-primary);
+    color:var(--c-logo);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
 }
 
 .logo-accent{
-    color: var(--c-logo);
+    color: var(--c-primary);
 
 }
 
@@ -48,6 +49,20 @@ ul{
 .nav-link:focus {
     color: var(--c-brand);
 }
+
+.add-contact{
+    color: var(--c-text);
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.add-contact:hover,
+.add-contact:focus{
+    color:var(--c-brand) ;
+}
+
 .hero-section{
     background-color: var(--c-primary);
 
@@ -66,11 +81,11 @@ ul{
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
     border: none;
-    padding: 16px 32px;
     border-radius: 4px;
 }
 .button:hover,
