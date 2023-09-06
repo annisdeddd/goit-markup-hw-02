@@ -159,6 +159,18 @@ ul{
 .footer-section{
     background-color: var(--c-primary);
 }
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    color: var(--c-logo);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.f-logo-accent{
+    color:var(--c-background-light) ;
+}
 .footer-text{
     color: var(--c-background-light);
     line-height: 1.5;
