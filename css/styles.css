@@ -88,8 +88,6 @@ ul{
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
-    border: none;
-    border-radius: 4px;
 }
 .button:hover,
 .button:focus{
@@ -115,10 +113,15 @@ ul{
 /* Team section*/
 .team-section{
     background-color: var(--c-background-light);
-}
-
-.name-title{
     color: var(--c-primary);
+}
+.team-intro{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.name-title{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
