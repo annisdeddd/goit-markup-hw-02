@@ -115,6 +115,7 @@ ul{
     background-color: var(--c-background-light);
 }
 .team-intro{
+    color: var(--c-primary);
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -123,6 +124,7 @@ ul{
 }
 .name-title{
     color: var(--c-primary);
+    background-color: var(--c-primary-light);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
