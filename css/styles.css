@@ -146,12 +146,21 @@ ul{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .portfolio-category{
     color: var(--c-text);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer-section{
+    background-color: var(--c-primary);
+}
+.footer-text{
+    color: var(--c-background-light);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
