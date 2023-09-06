@@ -2,7 +2,7 @@
    --c-brand: #404BBF; 
    --c-primary:#2E2F42;
    --c-primary-light:#FFFFFF;
-   --c-background-light:#FFF;
+   --c-background-light:#F4F4FD;
    --c-logo: #4D5AE5;
    --c-text:#434455;
 }
@@ -10,7 +10,7 @@
 body{
     color:var(--c-text);
     font-family:'Roboto',sans-serif ;
-    background-color: var(--c-background-light);
+    background-color: var(--c-primary-light);
     font-size: 16px;
 }
 
@@ -108,6 +108,26 @@ ul{
     color: var(--c-text);
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Team section*/
+.team-section{
+    background-color: var(--c-background-light);
+}
+
+.name-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.job-title{
+    color: var(--c-text);
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
