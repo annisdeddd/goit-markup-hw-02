@@ -50,17 +50,18 @@ ul{
     color: var(--c-brand);
 }
 
-.add-contact{
-    color: var(--c-text);
+.add-contact{ 
+    color: #434455;     /*FIX ME:color,HOVER,FOCUS*/
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
     font-weight: 400;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .add-contact:hover,
-.add-contact:focus{
-    color:var(--c-brand) ;
+.add-contact:focus {
+    color: #404bbf;
 }
 
 .hero-section{
