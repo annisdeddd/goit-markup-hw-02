@@ -113,15 +113,16 @@ ul{
 /* Team section*/
 .team-section{
     background-color: var(--c-background-light);
-    color: var(--c-primary);
 }
 .team-intro{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 .name-title{
+    color: var(--c-primary);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
