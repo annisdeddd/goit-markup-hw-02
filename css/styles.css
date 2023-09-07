@@ -41,10 +41,10 @@ ul{
 
 .nav-link{
     color:var(--c-primary);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -63,7 +63,7 @@ ul{
     letter-spacing: 0.02em;
 }
 .add-contact:hover,
-.add-contact:focus {
+.add-contact:focus{
     color: var(--c-brand);
 }
 
@@ -97,16 +97,14 @@ ul{
 }
 
 /* Advantages section*/
-.advantage-title,
-.name-title{
+.advantage-title{
     color: var(--c-primary);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.advantage-text,
-.job-title{
+.advantage-text{
     color: var(--c-text);
     font-size: 16px;
     font-weight: 400;
@@ -118,16 +116,30 @@ ul{
 .team-section{
     background-color: var(--c-background-light);
 }
+.team-job {
+    background-color: var(--c-primary-light);
+}
 .team-intro{
     color: var(--c-primary);
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     text-align: center;
 }
-.team-job{
-    background-color: var(--c-primary-light);
+.name-title{
+    color: var(--c-primary);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+.job-title{
+    color: var(--c-text);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 /* Portfolio section */
