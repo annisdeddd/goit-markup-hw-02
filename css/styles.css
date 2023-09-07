@@ -95,14 +95,16 @@ ul{
 }
 
 /* Advantages section*/
-.advantage-title{
+.advantage-title,
+.name-title{
     color: var(--c-primary);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.advantage-text {
+.advantage-text,
+.job-title{
     color: var(--c-text);
     font-size: 16px;
     font-weight: 400;
@@ -121,22 +123,6 @@ ul{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-}
-.name-title{
-    color: var(--c-primary);
-    background-color: var(--c-primary-light);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-.job-title{
-    color: var(--c-text);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
 }
 
 /* Portfolio section */
